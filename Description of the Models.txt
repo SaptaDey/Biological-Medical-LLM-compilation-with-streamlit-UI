@@ -1,0 +1,18 @@
+
+
+- BioGPT-Large is a domain-specific generative Transformer language model pre-trained on large-scale biomedical literature. It was developed by Microsoft Research and published in 2021. It can perform well on various biomedical natural language processing tasks, such as relation extraction, question answering, and text generation. It achieved 44.98%, 38.42%, and 40.76% F1 score on BC5CDR, KD-DTI, and DDI end-to-end relation extraction tasks, respectively, and 78.2% accuracy on PubMedQA¹. It also reached an "expert" test-taker level performance on the MedQA dataset of US Medical Licensing Examination (USMLE)-style questions, reaching 85%+ accuracy¹.
+
+- Palmyra is a large-scale pre-trained language model for Arabic natural language processing. It was developed by QCRI and published in 2020. It can handle various Arabic dialects and domains, such as news, social media, literature, and medical texts. It achieved state-of-the-art results on several Arabic natural language processing tasks, such as sentiment analysis, named entity recognition, question answering, and machine translation². It also outperformed multilingual models such as mBERT and XLM-R on Arabic-specific tasks².
+
+- MedPalm2 is a medical large language model developed by Google Cloud and announced in 2021. It is based on Google's LLMs and aligned to the medical domain to more accurately and safely answer medical questions. It was the first LLM to perform at an "expert" test-taker level performance on the MedQA dataset of USMLE-style questions, reaching 85%+ accuracy, and it was the first AI system to reach a passing score on the MedMCQA dataset comprising Indian AIIMS and NEET medical examination questions, scoring 72.3%³. It is currently available in limited access to a select group of Google Cloud customers for testing and feedback³.
+
+From these information, we can see that BioGPT-Large, Palmyra, and MedPalm2 are all large language models that are tailored to specific domains or languages. They have different sources of data, architectures, and objectives. They also have different strengths and limitations in terms of performance, applicability, and availability. Therefore, it is hard to compare them directly without considering the context and the task at hand.
+
+I hope this helps you with understanding the differences between BioGPT-Large, Palmyra, and MedPalm2. If you have any other questions, please let me know. 😊
+
+Source: Conversation with Bing, 8/20/2023
+(1) microsoft/BioGPT-Large · Hugging Face. https://huggingface.co/microsoft/BioGPT-Large.
+(2) Sharing Google’s Med-PaLM 2 medical large language model, or LLM .... https://cloud.google.com/blog/topics/healthcare-life-sciences/sharing-google-med-palm-2-medical-large-language-model.
+(3) Towards Expert-Level Medical Question Answering with Large Language Models. https://arxiv.org/pdf/2305.09617.pdf.
+(4) undefined. https://doi.org/10.1093/bib/bbac409.
+(5) undefined. https://academic.oup.com/bib/article-pdf/23/6/bbac409/47144271/bbac409.pdf.
